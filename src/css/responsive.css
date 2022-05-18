@@ -1,0 +1,45 @@
+@media (max-width: 733px) {
+    .slide-ativo .informacoes {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .slide-ativo .informacoes h2 {font-size: 3.4rem;}
+
+    .slide-ativo .informacoes p {
+        line-height: 29px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 611px) {
+    .slide-ativo .informacoes {
+        margin-top: 32%;
+        padding: 5%;
+        max-width: 30%;
+        left: 50px;
+    }
+
+    .slide-ativo .informacoes h2 {font-size: 205%;}
+
+    .slide-ativo .informacoes p {
+        overflow-y: scroll;
+        height: 100px;
+        line-height: 20px;
+        font-size: 1.3rem;
+    }
+
+    .slide-ativo .informacoes span {
+        font-size: 162%;
+    }
+
+    .setas img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 328px) {
+    #seta-esquerda {
+        margin-left: 10px;
+    }
+}
